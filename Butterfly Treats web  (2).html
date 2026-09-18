@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButterFly Treats</title>
+
+  <link rel="stylesheet" href="Butterfly TR.css">
+
+</head>
+
+<body>
+
+<header>
+        <img src="logo.jpg" alt="website logo">
+   
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#login">Login</a>
+        <a href="#about">About</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Sweet Moments Start Here</h1>
+
+        <p>
+            Delicious homemade desserts made with love,
+            passion and the finest ingredients.
+        </p>
+
+        <a href="#menu" class="btn">Explore Our Desserts</a>
+    </div>
+</section>
+
+<section id="menu">
+    <div class="section-title">
+        <h2>Our Desserts</h2>
+        <p>Something sweet for every occasion for great memories.</p>
+    </div>
+
+    <div class="menu-grid">
+
+        <div class="dessert-card">
+
+            <div class="card-content">
+                <h3>Peppermint Crisp Tart</h3>
+                <p>Rich, creamy and minty tart.</p>
+                <div class="price">R180</div>
+                <button class="btn" onclick="orderDessert('Peppermint Crisp')">
+                    Order Now
+                </button>
+            </div>
+        </div>
+
+
+        <div class="dessert-card">
+
+            <div class="card-content">
+                <h3>Strawberry shortcake</h3>
+                <p>Soft vanilla cake layered with fresh strawberries and cream.</p>
+                <div class="price">R250</div>
+                <button class="btn" onclick="orderDessert('Strawberry shortcake')">
+                    Order Now
+                </button>
+            </div>
+        </div>
+
+
+        <div class="dessert-card">
+
+            <div class="card-content">
+                <h3>Oreo cheesecake</h3>
+                <p>Cheesecake with oreo filling and topping.</p>
+                <div class="price">R210</div>
+                <button class="btn" onclick="orderDessert('Oreo Cheesecake')">
+                    Order Now
+                </button>
+            </div>
+        </div>
+
+
+        <div class="dessert-card">
+        
+            <div class="card-content">
+                <h3>Caramel Tart</h3>
+                <p>Creamy and sweet tart made with caramel sauce and filling</p>
+                <div class="price">R170</div>
+                <button class="btn" onclick="orderDessert('Caramel Tart')">
+                    Order Now
+                </button>
+            </div>
+        </div>
+
+    </div>
+    
+<div class="image-container">
+
+    <img src="BT 1.jpg">
+    <img src="BT 2.jpg">
+    <img src="BT 3.jpg">
+    <img src="BT 5.jpg">
+
+</div>
+</section>
+
+<section class="login" id="login">
+
+    <div class="login-container"> 
+
+        <h2>Login</h2> 
+        <p>Please enter your details to log in.</p>
+
+        <form>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+
+            <button type="submit">Login</button>
+
+        </form>
+
+        <p class="signup">
+            Don't have an account?
+            <a href="#">Sign Up</a>
+        </p>
+        
+     </div>
+  </section>      
+
+<section class="about" id="about">
+
+    <div class="about-container">
+
+        <div class="about-text">
+
+            <h2>Made With Love</h2>
+
+            <p>
+                To create a world where one cup of dessert brings comfort and great memories
+                We offer Dessert Cups, Dessert Tables.
+                You can customize your own desserts or request for your own kind of dessert.
+
+            </p>
+
+            <br>
+
+            <p>
+                Why Choose Us?
+                We make desserts and dessert tables with the freshest ingredients 
+                for those who have sweet teeth and those who love comfort foods.
+                Our desserts are affordable,
+                and we focus on designs that will be appealing to the eye!
+            </p>
+
+            <br>
+
+            <a href="#contact" class="btn">Contact Us</a>
+
+</section>
+
+    <div class="features">
+
+        <div class="feature">
+            <h3>Fresh Ingredients</h3>
+            <p>We use quality ingredients to create delicious desserts.</p>
+        </div>
+
+
+        <div class="feature">
+            <h3>Made With Love</h3>
+            <p>Every dessert is carefully prepared with passion.</p>
+        </div>
+
+
+        <div class="feature">
+            <h3>Custom Orders</h3>
+            <p>Tell us what you want and we'll help create something special.</p>
+        </div>
+
+
+        <div class="feature">
+            <h3>Convenient Delivery</h3>
+            <p>Get your favourite treats delivered to your door.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="order" id="order">
+
+    <h2>Ready for Something Sweet?</h2>
+
+    <p>
+        Place your order today and let us make your next celebration sweeter.
+    </p>
+
+    <a href="#contact" class="btn">Place an Order</a>
+
+</section>
+
+
+<section id="contact">
+
+    <div class="section-title">
+
+        <h2>Contact Us</h2>
+
+        <p>Let's create something delicious together.</p>
+
+    </div>
+
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>ButterFly Treats</h3>
+
+            <p>Pretoria, South Africa</p>
+
+            <p>📞 071 234 5678</p>
+
+            <p>📸 Instagram: @butterfly.treats</p>
+
+            <p>⏰ Mon - Sun</p>
+
+        </div>
+
+
+        <form onsubmit="submitForm(event)">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="tel"
+                id="phone"
+                placeholder="Phone Number"
+                required
+            >
+
+            <select id="dessert" required>
+
+                <option value="">Select a dessert</option>
+
+                <option>Strawberry Shortcake</option>
+                <option>Peppermint tart</option>
+                <option>Oreo Cheesecake</option>
+                <option>Caramel Tart</option>
+                <option>Custom Order</option>
+
+            </select>
+
+            <textarea
+                id="message"
+                placeholder="Tell us about your order..."
+                required
+            ></textarea>
+
+            <button class="btn" type="submit">
+                Send Order Request
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>🍰 <strong>ButterFly Treats</strong></p>
+
+    <p>Made with love, one dessert at a time.</p>
+
+    <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+    </div>
+
+    <p>© 2026 ButterFly Treats. All Rights Reserved.</p>
+
+</footer>
+
+
+</body>
+</html>
